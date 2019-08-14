@@ -5,8 +5,13 @@ def nyc_pigeon_organizer(data)
   new_hash = Hash.new
   
   data.each do |attribute, values_h|
+    values_h.each do |value, names|
+      names.each do |name|
+        
+      end
+    end
   end
-    values_
+    
   
   
 end
